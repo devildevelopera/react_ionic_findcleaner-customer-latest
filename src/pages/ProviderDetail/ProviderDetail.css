@@ -1,0 +1,88 @@
+/* Request detail */
+.imgBack {
+  max-width: 30px;
+  margin-left: 10px;
+}
+.service__item.detail {
+  flex-direction: column;
+  background: none;
+  box-shadow: none;
+  border-bottom: 1px solid #cccccc;
+  border-radius: unset;
+}
+.service__img.avataWhite {
+  background: #fff;
+  max-width: 100px;
+  border: 2px solid #fff;
+  margin-bottom: 15px;
+}
+.detailColumn {
+  flex-direction: column;
+}
+.colorGray {
+  color: #646464;
+}
+.listReview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+.listRate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+}
+.service__icon.smallStar {
+  margin: 0 2px;
+}
+.listAdress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconAdress {
+  max-width: 16px;
+  margin-right: 15px;
+}
+.request__name {
+  color: #3a3a3a;
+  font-size: 20px;
+}
+.detail__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.detail__column {
+  flex-direction: column;
+}
+
+.detail__item {
+  background: #ebebeb;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.bgNone {
+  background: none;
+}
+.margin10 {
+  margin: 0 0 10px 0;
+}
+.detail__link {
+  color: #1c6bb8;
+}
+.nameComment {
+  margin-left: auto;
+  font-style: italic;
+  padding-right: 10px;
+}
+.star--small {
+  max-width: 15px;
+}
+.rate--small {
+  font-size: 12px;
+}

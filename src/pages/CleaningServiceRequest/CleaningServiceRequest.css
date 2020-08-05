@@ -1,0 +1,145 @@
+/* Cleaning Service Request */
+.cleaning__title {
+  color: #1c6bb8;
+  /* margin-bottom: 10px; */
+}
+.cleaning__margintop {
+  margin-top: 10px;
+}
+.icon__input-right {
+  max-width: 100%;
+  width: 10px;
+  margin-left: auto;
+}
+.iconCalendar {
+  width: 20px;
+}
+.listRadio {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.listRadio__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 15px;
+  border: 1px solid #d5d5d5;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.checkList {
+  border: 1px solid #77a6d4;
+}
+.styleRadio {
+  display: none;
+  /* background: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  line-height: 30px;
+  text-align: center;
+  top: -60px;
+  right: -40px; */
+}
+
+.flexLabelCleaning {
+  display: flex;
+  flex-direction: column;
+}
+.noPad {
+  /* --inner-padding-right: 0; */
+  --inner-padding-end: 0;
+  position: relative;
+}
+/* .item-inner {
+  --inner-padding-right: 0;
+  --inner-padding-end: 0;
+} */
+.iconRadio {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  max-width: 100%;
+  width: 30px;
+  margin-left: auto;
+  display: none;
+}
+.showIcon {
+  display: block;
+}
+.blueNum {
+  color: #1c6bb8 !important;
+}
+/* .noPad > IonRadio:checked ~ .listRadio__item {
+  background-color: red;
+}
+IonRadio:checked ~ .listRadio__item {
+  background-color: red;
+} */
+.yesNo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cleaning__card {
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 30px;
+}
+.select-icon-inner {
+  visibility: hidden !important;
+}
+.select-icon {
+  visibility: hidden !important;
+}
+.select-icon {
+  left: -5px;
+  margin-top: -6px;
+  border-top: 14px solid;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+
+.select-icon {
+  left: -5px !important;
+  margin-top: -6px !important;
+  border-top: 14px solid !important;
+  border-right: 10px solid transparent !important;
+  border-left: 10px solid transparent !important;
+}
+
+.select-icon {
+  display: none !important;
+}
+select::-ms-expand {
+  display: none;
+}
+
+.noPad.select-icon {
+  opacity: 0 !important;
+}
+.select-icon {
+  opacity: 0 !important;
+}
+
+.noFlat > .select-icon {
+  opacity: 0 !important;
+}
+.cleaning__margintop .select-icon .select-icon-inner {
+  display: none;
+}
+.google-places-autocomplete__input {
+  width: 100%;
+  background: #000;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin: 15px 0;
+}

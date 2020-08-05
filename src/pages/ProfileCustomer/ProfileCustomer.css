@@ -1,0 +1,44 @@
+.iconEdit {
+  /* position: relative; */
+  /* top: -120px;
+  right: -40px; */
+  /* background: #fff; */
+  /* padding: 11px; */
+  /* box-sizing: border-box; */
+  width: 20px;
+  /* border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+}
+.btnEdit {
+  position: relative;
+  top: -105px;
+  right: -40px;
+  /* --background: #fff;
+  --background-activated: #ff7e00; */
+  /* padding: 11px; */
+  /* box-sizing: border-box; */
+  /* border-radius: 50%; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+}
+.colorWhite {
+  --background: #fff;
+  --background-hover: red;
+  --background-activated: #ff7e00;
+}
+
+.profile__list {
+  width: 100%;
+}
+.labelProfile {
+  --color: #a7a7a7 !important;
+}
+.inputProfile {
+  color: #606060;
+}
+.noborderProfile {
+  border: none;
+  margin-bottom: 0;
+}
+.noMarginProfile {
+  margin-bottom: 0 !important;
+}

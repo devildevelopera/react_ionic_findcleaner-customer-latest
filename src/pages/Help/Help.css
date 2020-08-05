@@ -1,0 +1,16 @@
+.help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list__icon {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  padding: 10px;
+}
+.mgRight {
+  margin-right: 20px;
+}

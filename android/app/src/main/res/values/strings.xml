@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">FindCleaner</string>
+    <string name="title_activity_main">FindCleaner</string>
+    <string name="package_name">com.findcleaner</string>
+    <string name="custom_url_scheme">com.findcleaner</string>
+</resources>

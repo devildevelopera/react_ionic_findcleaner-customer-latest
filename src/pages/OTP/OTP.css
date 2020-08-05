@@ -1,0 +1,36 @@
+/* otp */
+.relativeEarnings.noTop {
+  top: 0;
+}
+.service__info.otp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  padding: 40px 20px;
+}
+.service__img.iconOtp {
+  max-width: 60%;
+}
+.service__info-list.widthFull {
+  width: 100%;
+  text-align: center;
+}
+.btn.widthFull {
+  width: 100%;
+}
+.otp__title {
+  color: #4f4f4f;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.otp__desc {
+  color: #929292;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.otp__gray {
+  color: #5d5d5d;
+}

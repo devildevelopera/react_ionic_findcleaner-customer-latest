@@ -1,0 +1,32 @@
+.title-white {
+  color: #fff;
+}
+.addService__width {
+  max-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #1c6bb8;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.addService__list,
+.list-custom {
+  margin: 40px 0;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.addService__item,
+.input-custom {
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+}
+.addService__btn {
+  margin-top: 40px;
+  text-transform: capitalize;
+}
+:host ion-item {
+  height: 200px;
+}

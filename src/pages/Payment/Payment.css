@@ -1,0 +1,60 @@
+/* Payment */
+.noItalic {
+  font-style: normal;
+}
+
+.slidersNew {
+  /* display: flex;
+  max-width: 85%;
+  justify-content: center;
+  align-items: center; */
+  /* margin: 5px 5px 20px 5px;
+  padding: 20px 5px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
+  margin-bottom: 20px;
+}
+.slider__item {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 5px 20px 5px;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  flex-direction: column;
+}
+.slider__smallitem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.silder__column {
+  flex-direction: column;
+  margin: 10px 0;
+}
+.cart__title {
+  color: #474747;
+  font-size: 20px;
+}
+.card__titlesmall {
+  color: #8a8a8a;
+  font-size: 16px;
+}
+.card__text {
+  color: #5c5c5c;
+  font-size: 18px;
+}
+.sli {
+  position: relative;
+  top: -60px;
+}
+.linkedCard {
+  color: #909090;
+  margin-top: 20px;
+  padding-left: 10px;
+}
